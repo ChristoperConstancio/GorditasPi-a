@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .guisos {
+        background-image: url("./assets/guisos.jpg");
+    },
+    .text-fill-black {
+        -webkit-text-fill-color: #000;
+    },
+
+    .text-fill-white {
+        -webkit-text-fill-color: #fff;
+    }
+}
+
+@layer base {
+    li {
+        @apply font-bold text-lg text-white hover:text-amber-300 transition ease-in-out duration-500 sm:text-xl
+    }
+
+
+
+}
