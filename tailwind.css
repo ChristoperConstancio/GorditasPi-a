@@ -17,7 +17,7 @@
 
 @layer base {
     li {
-        @apply font-bold text-lg text-white hover:text-amber-300 transition ease-in-out duration-500 sm:text-xl
+        @apply font-bold text-lg text-white font-bold hover:text-amber-300 transition ease-in-out duration-500 sm:text-xl
     }
 
 
