@@ -19,14 +19,14 @@
 
     <header class="absolute flex-row w-full h-full z-10 ">
         <div class=" w-full flex justify-center md:justify-end mt-6 md:mt-16  ">
-            <ul class="flex md:gap-14 gap-24 md:mr-32 h-full items-center ">
+            <ul class="flex md:gap-14 gap-8 md:mr-32 h-full items-center ">
                 <li> <a href="#nosotros">Nosotros</a></li>
-                <li class="ml-8"><a href="#video">Video</a></li>
+                <li><a href="#video">Video</a></li>
                 <li><a href="#ubicacion">Ubicacion</a></li>
             </ul>
         </div>
-        <div class="flex items-center justify-center mt-20 h-52 ">
-            <span id="nombre" class="font-Kaushan text-8xl font-bold text-white min-w-min "></span>
+        <div class="flex items-center justify-center  h-52 md:mt-32">
+            <h1 class="font-Kaushan text-6xl md:text-9xl font-bold text-white text-center"><span id="nombre" class=" "></span></h1>
         </div>
     </header>
     <section class="w-full  relative ">
@@ -36,11 +36,11 @@
     <div class="bg-amber-300  h-full ">
         <div class="pt-6 ">
             <div class="bg-amber-300 text-center h-14 items-center flex justify-center ">
-                <h1 class="text-gray-100  font-bold text-8xl drop-shadow-4xl  ">NOSO</h1><span
-                    class="text-amber-500  font-bold text-8xl drop-shadow-4xl z-10 ">TROS</span>
+                <h1 class="text-gray-100 text-3xl font-bold lg:text-8xl drop-shadow-4xl  ">NOSO</h1><span
+                    class="text-amber-500 text-3xl font-bold lg:text-8xl drop-shadow-4xl z-10 ">TROS</span>
             </div>
             <div class="lg:flex mb-10  lg:mb-0">
-                <div class="lg:w-6/12 sm:mx-6 lg:ml-20 h-full">
+                <div class="lg:w-6/12 mx-6 lg:ml-20 h-full">
                     <p class="text-black font-bold text-2xl p-8 font-Loto h-auto">
                         Hola, somos Christoper y Javier, 2 jovenes que en el 2020 por la necesidad de la pandemia,
                         emprendimos un pequeño negocio de
@@ -56,12 +56,23 @@
                         Damos gracias a dios y a las clientes que confian en nosotros por hacer funcionar algo que nos
                         apasiona, esperamos y esta historia solo sea el principio...</p>
                 </div>
-                <div class="lg:w-8/12 flex h-full   sm: mx-6 sm: w-10/12 ">
+                <div class=" flex-row items-center justify-center mx-5 md:hidden">
+                    <div class="">
+                        <img src="./assets/puesto-2.jpg" alt="" class="object-cover rounded-2xl h-72 drop-shadow-4xl">
+                    </div>
+                    <div class="m-auto mt-5 mb-5 flex items-center justify-center ">
+                        <img src="./assets/inicio.jpg" alt="" class=" object-cover rounded-2xl h-72 w-32 drop-shadow-4xl">
+                    </div>
+                    <div class=" ">
+                        <img src="./assets/puesto.jpg" alt="" class=" object-cover rounded-2xl h-72 drop-shadow-4xl">
+                    </div>
+                </div>
+                <div class=" hidden  lg:w-8/12 md:flex h-full   mx-6 w-10/12 ">
                     <div class="absolute">
                         <img src="./assets/puesto-2.jpg" alt="" class="object-cover rounded-2xl h-72 drop-shadow-4xl">
                     </div>
                     <div class="ml-32 mt-60 relative">
-                        <img src="./assets/inicio.jpg" alt="" class=" object-cover rounded-2xl h-72 drop-shadow-4xl">
+                        <img src="./assets/inicio.jpg" alt="" class=" object-cover rounded-2xl h-72 w-32 drop-shadow-4xl">
                     </div>
                     <div class="relative mt-44 ml-7">
                         <img src="./assets/puesto.jpg" alt="" class=" object-cover rounded-2xl h-72 drop-shadow-4xl">
@@ -73,14 +84,14 @@
             <div class="pt-6">
                 <h1 class="font-bold text-white font-Kaushan text-7xl text-center drop-shadow-4xl	">Video</h1>
             </div>
-            <div class="lg:flex pt-10 gap-8">
-                <div class=" lg:ml-20 mx-8">
+            <div class="lg:flex pt-10 gap-8 ">
+                <div class=" lg:ml-20 mx-8 md:w-5/6 flex-row justify-center items-center">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/RYVCl2AMhOY"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                        allowfullscreen class="sm:w-80 md:w-4/6"></iframe>
                 </div>
-                <div class=" mx-6 lg:mr-20 pt-10">
+                <div class=" mx-6 lg:mr-20 pt-10 md:w-3/6" >
                     <p class="font-bold font-Loto text-xl text-black">Este es nuestro video para la convocatoria de
                         Emprendimiento Joven por parte del ICOJUVE, ya participamos en la exposicion en centro de
                         gobierno y nos parecio buena idea entrar a la convocatoria.</p> <br>
@@ -89,10 +100,10 @@
                 </div>
             </div>
         </div>
-        <div class="bg-red-600 h-full w-full pb-10" id="ubicacion">
+        <div class="bg-amber-500 h-full w-full pb-10" id="ubicacion">
             <div class="flex-row">
                 <div class="pt-4">
-                    <h1 class="font-bold text-white font-Kaushan text-7xl text-center">Ubicacion</h1>
+                    <h1 class="font-bold text-white font-Kaushan text-7xl text-center drop-shadow-4xl">Ubicacion</h1>
                 </div>
                 <div class="mt-10 text-center mx-6">
                     <p class="text-black font-bold text-3xl font-Loto">Aqui nos pueden encontrar de Viernes a Domingo de 7pm a
@@ -106,9 +117,9 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="h-full bg-gray-800 justify-center items-center flex gap-44  pt-4">
-                <p class="font-bold text-white ">
+        <footer class="bg-gray-800">
+            <div class="  justify-between items-center flex gap-20  h-24 mx-16 ">
+                <p class="font-bold text-white text-2xl">
                     Gorditas Piña 2022
                 </p>
                 <a href="https://www.facebook.com/GorditasPinaSaltillo" target="_blank"><svg class="h-8 w-8 text-blue-500 hover:text-blue-300"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg></a>
